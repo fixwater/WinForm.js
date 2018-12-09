@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@magicspace/configs": "^0.1.46",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
