@@ -28,16 +28,21 @@ export default class HeaderBar extends Vue {
 
 <style lang="scss">
 @import "../../scss/color";
+@import "../../scss/size";
 
 $left-distance: 2px;
 $top-distance: 5px;
 
 .header-bar {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: $left-distance $top-distance;
   background: $header-bar-color;
-  text-align: center;
-  position: relative;
+  position: absolute;
+  height: $header-bar-height;
+  z-index: 5;
 }
 
 .control-btns {
