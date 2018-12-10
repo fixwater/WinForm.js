@@ -1,10 +1,10 @@
 <template>
-  <div :class="type" @mouseover="handleMouseOver()"></div>
+  <div :class="type"></div>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import { Prop, Component, Emit } from "vue-property-decorator";
+import { Prop, Component } from "vue-property-decorator";
 
 type ControlBtnType = "close" | "min" | "max";
 
@@ -12,11 +12,6 @@ type ControlBtnType = "close" | "min" | "max";
 export default class ControlBtn extends Vue {
   @Prop()
   type!: ControlBtnType;
-
-  @Emit()
-  handleMouseOver() {
-    console.info("aa");
-  }
 }
 </script>
 
