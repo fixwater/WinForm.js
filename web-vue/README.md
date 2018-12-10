@@ -1,26 +1,24 @@
 # web-vue
 
-## Project setup
+构建中...
+
+## 使用
+
+**npm**
+
+```
+npm install
+```
+
+**yarn**
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## 功能实现
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
+- [ ] 拖拽改变窗体大小
+- [ ] Label 组件
+- [ ] TextBox 组件
+- [ ] Button 组件
