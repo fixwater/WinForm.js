@@ -2,7 +2,7 @@
 
 构建中...
 
-## 使用
+## 安装依赖
 
 **npm**
 
@@ -15,6 +15,36 @@ npm install
 ```
 yarn install
 ```
+
+## 命令
+
+**npm**
+启动项目
+
+```
+npm run serve
+```
+
+打包项目
+
+```
+npm run build
+```
+
+**yarn**
+启动项目
+
+```
+yarn serve
+```
+
+打包项目
+
+```
+yarn build
+```
+
+详细请见 `package.json`
 
 ## 功能实现
 
