@@ -2,9 +2,9 @@
   <div class="header-bar">
     <slot/>
     <div class="control-btns">
-      <ControlBtn type="close"/>
       <ControlBtn type="min"/>
       <ControlBtn type="max"/>
+      <ControlBtn type="close"/>
     </div>
   </div>
 </template>
