@@ -46,7 +46,7 @@ yarn build
 
 详细请见 `package.json`
 
-## 功能实现
+## TODOS
 
 - [x] 拖拽改变窗体大小
 - [x] Label 组件
