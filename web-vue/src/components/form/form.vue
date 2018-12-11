@@ -19,6 +19,9 @@
         <TextBox></TextBox>
         <TextBox placeholder="username"></TextBox>
       </Direction>
+      <Direction>
+        <Label>Hello I'm label</Label>
+      </Direction>
     </div>
   </div>
   <!-- </Editable> -->
@@ -31,6 +34,7 @@ import Component from "vue-class-component";
 import Button from "../button.vue";
 import Direction from "../@direction.vue";
 import TextBox from "../text-box.vue";
+import Label from "../label.vue";
 import Vue from "vue";
 
 @Component({
@@ -38,7 +42,8 @@ import Vue from "vue";
     HeaderBar,
     Button,
     Direction,
-    TextBox
+    TextBox,
+    Label
   }
 })
 export default class Form extends Vue {
