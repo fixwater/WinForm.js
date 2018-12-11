@@ -3,10 +3,17 @@
   <div class="form">
     <HeaderBar>My Form</HeaderBar>
     <div class="content">
-      <Direction>
+      <Direction position="row">
         <Button>Hello</Button>
         <Button button-size="medium">Hello</Button>
         <Button button-size="large">Hello</Button>
+      </Direction>
+      <Direction position="row">
+        <Button>default</Button>
+        <Button type="danger">danger</Button>
+        <Button type="positive">positive</Button>
+        <Button type="warning">warning</Button>
+        <Button type="success">success</Button>
       </Direction>
     </div>
   </div>
