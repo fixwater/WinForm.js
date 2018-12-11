@@ -39,9 +39,13 @@ VS2019 下载：<https://visualstudio.microsoft.com/zh-hans/vs/preview/?rr=https
 
 VS2019会自动加载项目，点击运行，即可运行起来基于 core 3 的APP项目
 
-运行效果如下：
+解决方案显示如下：
 
 ![](img/hello项目模板.png)
+
+运行效果如下：
+
+![](hello项目效果图.png)
 
 
 使用 WinFrom.js 的转换器进行项目编译转换
