@@ -19,6 +19,8 @@ yarn install
 ## 功能实现
 
 - [x] 拖拽改变窗体大小
-- [ ] Label 组件
+- [x] Label 组件
 - [x] TextBox 组件
 - [x] Button 组件
+- [ ] MultiLineTextBox 组件
+- [ ] Radio 组件
