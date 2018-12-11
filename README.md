@@ -31,6 +31,8 @@ VS2019 下载：<https://visualstudio.microsoft.com/zh-hans/vs/preview/?rr=https
 
 自动产生winforms的项目，然后拿VS 2019打开项目。
 
+更多基于Core3的桌面示例程序，见微软官方库 <https://github.com/dotnet/samples/tree/master/windowsforms>
+
 
 基于WinFrom.js的hello模板运行示例程序
 ===================================
