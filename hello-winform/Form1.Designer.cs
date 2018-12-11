@@ -1,4 +1,4 @@
-﻿namespace CoreForm
+﻿namespace hello_winform
 {
     partial class Form1
     {
