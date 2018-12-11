@@ -19,26 +19,26 @@ yarn install
 ## 命令
 
 **npm**
-启动项目
+#### 启动项目
 
 ```
 npm run serve
 ```
 
-打包项目
+#### 打包项目
 
 ```
 npm run build
 ```
 
 **yarn**
-启动项目
+#### 启动项目
 
 ```
 yarn serve
 ```
 
-打包项目
+#### 打包项目
 
 ```
 yarn build
