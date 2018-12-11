@@ -1,5 +1,5 @@
 <template>
-  <div :class="['button', buttonSize]">
+  <div :class="['button', buttonSize, type]">
     <slot></slot>
   </div>
 </template>
@@ -10,6 +10,12 @@ import Component from "vue-class-component";
 import { Prop } from "vue-property-decorator";
 
 export type ButtonSize = "small" | "medium" | "large";
+export type ButtonType =
+  | "danger"
+  | "warning"
+  | "positive"
+  | "success"
+  | "default";
 
 @Component({})
 export default class Button extends Vue {
@@ -17,6 +23,11 @@ export default class Button extends Vue {
     default: "small"
   })
   buttonSize!: ButtonSize;
+
+  @Prop({
+    default: "default"
+  })
+  type!: ButtonType;
 }
 </script>
 
@@ -24,9 +35,13 @@ export default class Button extends Vue {
 @import "../scss/color";
 @import "../scss/size";
 
-@mixin size($width, $height) {
-  width: $width;
-  height: $height;
+@mixin trigger($background, $hover-background) {
+  color: white;
+  background: $background;
+
+  &:hover {
+    background: $hover-background;
+  }
 }
 
 .button {
@@ -36,6 +51,24 @@ export default class Button extends Vue {
   border: 1px solid $border-color;
   margin: 5px;
   cursor: pointer;
+  transition: background 0.3s;
+}
+
+.danger {
+  @include trigger($red, $deep-red);
+}
+.positive {
+  @include trigger($blue, $deep-blue);
+}
+.warning {
+  @include trigger($yellow, $deep-yellow);
+}
+.success {
+  @include trigger($green, $deep-green);
+}
+.default {
+  color: #000 !important;
+  @include trigger(white, $shallow-gray);
 }
 
 .small {
