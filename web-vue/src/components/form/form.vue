@@ -15,6 +15,10 @@
         <Button type="warning">warning</Button>
         <Button type="success">success</Button>
       </Direction>
+      <Direction position="row">
+        <TextBox></TextBox>
+        <TextBox placeholder="username"></TextBox>
+      </Direction>
     </div>
   </div>
   <!-- </Editable> -->
@@ -26,13 +30,15 @@ import HeaderBar from "./header-bar.vue";
 import Component from "vue-class-component";
 import Button from "../button.vue";
 import Direction from "../@direction.vue";
+import TextBox from "../text-box.vue";
 import Vue from "vue";
 
 @Component({
   components: {
     HeaderBar,
     Button,
-    Direction
+    Direction,
+    TextBox
   }
 })
 export default class Form extends Vue {
