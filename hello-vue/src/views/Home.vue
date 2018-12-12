@@ -36,6 +36,7 @@ export default class Home extends Vue {}
   justify-content: center;
   align-items: center;
   position: relative;
+  background: #cecece;
 }
 
 .button-container {
