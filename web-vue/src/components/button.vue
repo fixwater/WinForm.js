@@ -52,6 +52,7 @@ export default class Button extends Vue {
   margin: 5px;
   cursor: pointer;
   transition: background 0.3s;
+  text-align: center;
 }
 
 .danger {
