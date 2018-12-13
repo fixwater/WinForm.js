@@ -1,7 +1,7 @@
 <template>
   <!-- <Editable :directions="['right', 'bottom']" :size="{width:500,height:350}"> -->
   <div class="form">
-    <HeaderBar>My Form</HeaderBar>
+    <HeaderBar>Form1</HeaderBar>
     <div class="content">
       <slot/>
     </div>
