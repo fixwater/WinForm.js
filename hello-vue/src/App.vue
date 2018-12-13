@@ -1,14 +1,14 @@
 <template>
-  <Home></Home>
+  <Form1></Form1>
 </template>
 
 <script>
-import Home from "@/views/Home.vue";
+import Form1 from "@/views/Form1.vue";
 import { Component, Vue } from "vue-property-decorator";
 
 @Component({
   components: {
-    Home
+    Form1
   }
 })
 export default class App extends Vue {}

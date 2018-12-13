@@ -16,7 +16,6 @@ import { Component, Vue } from "vue-property-decorator";
 import { Form } from "../components/form";
 import Label from "../components/label.vue";
 import Button from "../components/button.vue";
-
 @Component({
   components: {
     Form,
@@ -38,13 +37,11 @@ export default class Home extends Vue {}
   position: relative;
   background: #cecece;
 }
-
 .button-container {
   width: 100%;
   position: absolute;
   bottom: 0px;
   left: 0;
-
   > div {
     width: auto;
   }
