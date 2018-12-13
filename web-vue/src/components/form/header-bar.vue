@@ -36,7 +36,7 @@ $top-distance: 5px;
 .header-bar {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: $left-distance $top-distance;
   background: $header-bar-color;
