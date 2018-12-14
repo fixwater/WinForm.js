@@ -2,7 +2,7 @@
   <div class="home">
     <Form>
       <div class="container">
-        <Label :fontSize="30">Hello WinForm.js !</Label>
+        <Label :fontSize="30">aa !</Label>
         <div class="button-container">
           <Button>Exit</Button>
         </div>
