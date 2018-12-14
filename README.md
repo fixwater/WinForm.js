@@ -16,7 +16,7 @@
 请参见 web-vue 目录下的 readme 文件
 
 
-# 第二部：使用 WinFrom.js 转换器进行项目编译转换
+# 第二步：使用 WinFrom.js 转换器进行项目编译转换
 
 # Awesome-Replacer
 
